@@ -6,7 +6,7 @@ const AboutSection = () => {
 
   return (
     
-    <section id="bi-about-4" className="bi-about-section-4">
+    <section id="bi-about-4" className="bi-about-section-4" style={{ padding:'100px 0px'}}>
       <div className="container">
         <div className="bi-about-content-4 pt-4">
           <div className="row">

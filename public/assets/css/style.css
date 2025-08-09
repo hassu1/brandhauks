@@ -22349,4 +22349,16 @@ CSS INDEX
     top: -33px;
   }
 }
+@media (min-width: 1150px) and (max-width: 1399px) {
+      .bi-main-slider-item-4 .slider_men {
+        bottom: 220px;
+        left: 10px;
+    }
+}
+@media (min-width: 1401px) and (max-width: 1599px) {
+      .bi-main-slider-item-4 .slider_men {
+        bottom: 150px;
+        left: 10px;
+    }
+}
 /*---------------------------------------------------- */

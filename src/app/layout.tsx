@@ -3,14 +3,17 @@ import Script from "next/script";
 import AnimationInit from "@components/components/AnimationInit";
 
 export const metadata = {
-  title: "Brands Hauks",
-  description: "Brand Haukss - Web And Agency",
+  title: "Brand Hawks - Dubai, UAE",
+  description: "Brand Hawks is an emerging digital marketing, web and app development agency in Dubai, UAE. Brand Hawks has assisted and completed over 110+ projects in Dubai.",
+  alternates: {
+    canonical: 'https://www.brandhawks.ae/',
+  },
   keywords:
     "agency, app, business, company, corporate, designer, freelance, fullpage, modern, office, personal, portfolio, professional, web, web agency",
-  authors: [{ name: "Themexriver" }],
   icons: {
     icon: "/assets/img/logo/f-icon.png",
   },
+  
 };
 
 export default function RootLayout({

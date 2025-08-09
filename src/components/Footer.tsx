@@ -32,12 +32,12 @@ export default function Footer() {
                   data-wow-delay="200ms"
                   data-wow-duration="1000ms"
                 >
-                  <a href="#">
-                    Get A quote
+                  <Link href="#!">
+                    Contact Us
                     <span className="d-flex justify-content-center align-items-center">
                       <Image width={15} height={15} style={{width:'100%', height:'auto'}} src="/assets/img/icon/arrow.svg" alt="arrow" />
                     </span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -69,10 +69,8 @@ export default function Footer() {
                     <ul>
                       <li><Link href="/about-us">About Us</Link></li>
                       <li><Link href="/what-we-do">What We Do</Link></li>
-                      <li><Link href="/portfolio">Portfolio</Link></li>
+                      <li><Link href="/our-portfolio">Our Portfolio</Link></li>
                       <li><Link href="/contact-us">Contact Us</Link></li>
-                      <li><a href="#">Privacy Policy</a></li>
-                      <li><a href="#">Terms & Conditions</a></li>
                     </ul>
                   </div>
                 </div>
@@ -84,11 +82,11 @@ export default function Footer() {
                   <div className="menu-widget">
                     <h3 className="widget-title">Development</h3>
                     <ul>
-                      <li><a href="#">UI/UX</a></li>
-                      <li><a href="#">Digital Marketing</a></li>
-                      <li><a href="#">Web Application</a></li>
-                      <li><a href="#">Mobile Application</a></li>
-                      <li><a href="#">Shopify</a></li>
+                      <li><Link href="#!">UI/UX</Link></li>
+                      <li><Link href="#!">Digital Marketing</Link></li>
+                      <li><Link href="#!">Web Application</Link></li>
+                      <li><Link href="#!">Mobile Application</Link></li>
+                      <li><Link href="#!">Shopify</Link></li>
                     </ul>
                   </div>
                 </div>
@@ -100,9 +98,22 @@ export default function Footer() {
                   <div className="menu-widget">
                     <h3 className="widget-title">Contact Info</h3>
                     <ul>
-                      <li><a href="#"><i className="fa fa-phone"></i>&nbsp;&nbsp;+971-111-11111</a></li>
-                      <li><a href="#"><i className="fa fa-envelope"></i>&nbsp;&nbsp;abc@gmail.com</a></li>
+                      <li><Link href="tel:+971529557729"><i className="fa fa-phone"></i>&nbsp;&nbsp;+971 52 955 7729</Link></li>
+                      <li><Link href="mailto:Info@brandhawks.ae"><i className="fa fa-envelope"></i>&nbsp;&nbsp;Info@brandhawks.ae</Link></li>
+                      <li><Link href="https://www.google.com/maps?q=Office+203,+Al+Fajer+Complex,+Oud+Metha,+Dubai"><i className="fa fa-location"></i>&nbsp;&nbsp;Office# 203, Al Fajer Complex, Umm Hurair Road, Oud Metha, Dubai</Link></li>
                     </ul>
+                    <hr />
+                    <div className="bi-header-social d-flex " style={{gap:'30px'}}>
+                      <Link href="https://www.instagram.com/brandhawks?igsh=MWloY3ZlMnhuN2VjYg==">
+              <i className="fab fa-instagram"></i>
+            </Link>
+            <Link href="https://www.linkedin.com/company/brand-hawks/">
+              <i className="fab fa-linkedin-in"></i>
+            </Link>
+            <Link href="https://www.facebook.com/share/12M9Uqb4tx1/">
+              <i className="fab fa-facebook"></i>
+            </Link>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -129,7 +140,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="bi-footer-copyright text-center">
-          Copyright 2025 @brandHauks
+          Copyright 2025 @brandHawks
         </div>
       </footer>
     </>

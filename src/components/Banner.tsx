@@ -89,7 +89,7 @@ export default function Banner() {
                     Innovation
                     <span>starts where</span>
                     <strong>
-                      limits <b> end.</b>
+                      limits <b style={{marginLeft:'1rem'}}> end.</b>
                     </strong>
                   </h1>
                 </div>
