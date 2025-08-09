@@ -18,7 +18,7 @@ export default function Thanks() {
             <div className="thankyou-wrapper text-center p-5 shadow-lg rounded" style={{ background: '#1c1c3a', color: '#fff' }}>
               <i className="fa fa-envelope-open-o mb-4" style={{ fontSize: '64px', color: '#4CAF50' }}></i>
               <h1 className="mb-3">Thank You!</h1>
-              <p className="lead mb-4">Your message has been sent successfully. We'll get back to you soon.</p>
+              <p className="lead mb-4">Your message has been sent successfully. We&apos;ll get back to you soon.</p>
 
               <div className="bi-cta-btn">
                 <div
