@@ -18,6 +18,12 @@ const sponsorLogos = [
   '160X160-9.png',
   '160X160-12.png',
   '160X160-13.png',
+  '1.png',
+  '2.png',
+  '3.png',
+  '4.png',
+  '5.png',
+  '6.png',
 ];
 
 export default function SponsorSection() {

@@ -1,7 +1,70 @@
-// components/ContactForm.js
-import React from 'react';
+'use client';
+import React, { useState } from 'react';
+import { useRouter } from 'next/navigation';  // Correct hook for Next.js 13+
 
 const ContactForm = () => {
+  const router = useRouter();
+
+  // State for form fields initialized to empty strings
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    subject: '',
+    message: ''
+  });
+
+  // State for handling loading and error messages
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState('');
+
+  // Handle form field changes
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData({
+      ...formData,
+      [name]: value
+    });
+  };
+
+  // Handle form submission
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    setLoading(true);
+    setError('');
+
+    // Validate required fields
+    if (!formData.name || !formData.email) {
+      setError('Name and Email are required.');
+      setLoading(false);
+      return;
+    }
+
+    try {
+      const response = await fetch('https://www.brandhawks.ae/controller/ContactUsController', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: new URLSearchParams(formData),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        // Redirect to the thank-you page
+        router.push('/thankyou');  // Or use any other form of redirection
+      } else {
+        setError(result.message || 'Failed to send email.');
+      }
+    } catch (error) {
+      setError('Something went wrong. Please try again later.');
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <section id="bi-contact-form" className="bi-contact-form-section">
       <div className="bi-contact-map">
@@ -32,30 +95,62 @@ const ContactForm = () => {
                     </h2>
                   </div>
                   <div className="bi-team-details-contact-form">
-                    <form action="/controller/bannerFormController.php" method="post">
+                    <form onSubmit={handleSubmit}>
                       <div className="row">
                         <div className="col-md-6">
-                          <input type="text" name="name" placeholder="First Name" />
+                          <input
+                            type="text"
+                            name="name"  // Ensure it matches state keys
+                            placeholder="First Name"
+                            value={formData.name}
+                            onChange={handleInputChange}
+                          />
                         </div>
                         <div className="col-md-6">
-                          <input type="email" name="Email" placeholder="Email" />
+                          <input
+                            type="email"
+                            name="email"  // Ensure it matches state keys
+                            placeholder="Email"
+                            value={formData.email}
+                            onChange={handleInputChange}
+                          />
                         </div>
                         <div className="col-md-6">
-                          <input type="tel" name="phone" placeholder="Phone No." />
+                          <input
+                            type="tel"
+                            name="phone"  // Ensure it matches state keys
+                            placeholder="Phone No."
+                            value={formData.phone}
+                            onChange={handleInputChange}
+                          />
                         </div>
                         <div className="col-md-6">
-                          <input type="text" name="subject" placeholder="Subject" />
+                          <input
+                            type="text"
+                            name="subject"  // Ensure it matches state keys
+                            placeholder="Subject"
+                            value={formData.subject}
+                            onChange={handleInputChange}
+                          />
                         </div>
                         <div className="col-md-12">
-                          <textarea name="message" placeholder="Your Message"></textarea>
+                          <textarea
+                            name="message"  // Ensure it matches state keys
+                            placeholder="Your Message"
+                            value={formData.message}
+                            onChange={handleInputChange}
+                          ></textarea>
                         </div>
                         <div className="col-md-12">
                           <div className="bi-submit-btn">
-                            <button type="submit">Send message</button>
+                            <button type="submit" disabled={loading}>
+                              {loading ? 'Sending...' : 'Send message'}
+                            </button>
                           </div>
                         </div>
                       </div>
                     </form>
+                    {error && <div className="error-message">{error}</div>}
                   </div>
                 </div>
               </div>

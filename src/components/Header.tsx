@@ -4,10 +4,12 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import MobileMenu from "./MobileMenu";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
+  
 
   // ✅ Close menu on route change
   useEffect(() => {
@@ -26,6 +28,8 @@ export default function Header() {
   }, [menuOpen]);
 
   return (
+      <>
+        <MobileMenu />
     <header id="bi-header" className="bi-header-section header-style-four">
       <div className="bi-header-content d-flex justify-content-between align-items-center">
         <div className="brand-logo">
@@ -153,5 +157,6 @@ export default function Header() {
         </div>
       </div>
     </header>
+      </>
   );
 }
