@@ -1,6 +1,5 @@
 import "./globals.css";
 import Script from "next/script";
-import AnimationInit from "@components/components/AnimationInit";
 
 export const metadata = {
   title: "Brand Hawks - Dubai, UAE",
@@ -47,9 +46,6 @@ export default function RootLayout({
       </head>
 
       <body className="home-4">
-        {/* <AnimationInit /> */}
-     
-
         {children}
 
        

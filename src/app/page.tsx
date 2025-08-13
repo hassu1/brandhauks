@@ -12,7 +12,6 @@ import ServiceAnimate from "@components/components/ServiceAnimate";
 import TextScrollTwo from "@components/components/TextScrollTwo";
 import ScrollFixer from "@components/components/ScrollFixer";
 
-
 export default function Home() {
   return (
     <>

@@ -53,7 +53,6 @@ export default function SponsorSection() {
                     alt={`Sponsor ${index + 1}`}
                     width={160}
                     height={160}
-                    layout="intrinsic"
                     loading="lazy"
                   />
                 </div>
