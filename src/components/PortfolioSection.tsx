@@ -84,10 +84,12 @@ export default function PortfolioSection() {
                 >
                   <div className="portfolio-img-4">
                     <Image
-                      src="/assets/images/project/social_media.png"
+                      src="/assets/images/project/social_media.jpg"
                       alt="Social Media"
                       width={1300}
                       height={1300}
+                      loading="lazy"
+                      className="lazy"
                     />
                   </div>
                   <div className="portfolio-text headline">
@@ -111,6 +113,8 @@ export default function PortfolioSection() {
                       alt="App Development"
                       width={1300}
                       height={2600}
+                         loading="lazy"
+                      className="lazy"
                     />
                   </div>
                   <div className="portfolio-text headline">
@@ -139,6 +143,8 @@ export default function PortfolioSection() {
                       alt="Web Development"
                       width={1300}
                       height={1300}
+                         loading="lazy"
+                      className="lazy"
                     />
                   </div>
                   <div className="portfolio-text headline">
@@ -158,10 +164,12 @@ export default function PortfolioSection() {
                 >
                   <div className="portfolio-img-4">
                     <Image
-                      src="/assets/images/project/1300x2600.png"
+                      src="/assets/images/project/1300x2600.jpg"
                       alt="Branding Design"
                       width={1300}
                       height={2600}
+                      loading="lazy"
+                      className="lazy"
                     />
                   </div>
                   <div className="portfolio-text headline">

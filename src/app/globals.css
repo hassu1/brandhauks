@@ -65,3 +65,22 @@ body{
 #readMoreWrapper {
   margin-top: 30px;
 }
+
+
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1399px) {
+.bi-main-slider-item-4 .bi-main-slider-text h1{
+  font-size:129px!important;margin-left:7%;
+}
+}
+
+
+@media only screen and (max-width: 999px) {
+  .bi-main-slider-item-4 .bi-main-slider-text h1{
+    width: 100%;
+    position: relative;
+    top:-20px;
+    transform: translate(0px, 0px)!important;
+}
+}

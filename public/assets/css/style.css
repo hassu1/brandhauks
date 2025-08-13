@@ -6351,8 +6351,8 @@ select:visited {
   bottom: 20px;
   margin: 0 auto;
   text-align: center;
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  visibility: visible;
   -webkit-transform: translateX(180px);
           transform: translateX(180px);
 }
@@ -6377,8 +6377,8 @@ select:visited {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--base-color);
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
+  visibility: visible;
   -webkit-transform: translateX(-80px);
           transform: translateX(-80px);
 }
@@ -7811,10 +7811,10 @@ select:visited {
   .bi-counter-section-4 .counter-landing.bi-counter-landing2 {
     left: -65%;
   }
-  .bi-slider-section-4 {
+  /* .bi-slider-section-4 {
     background-image: none !important;
     background-color: #192140;
-  }
+  } */
   .bi-main-slider-item-4 .slider_men {
     bottom: 0;
   }

@@ -11,7 +11,6 @@ export default function Footer() {
         id="bi-footer"
         className="bi-footer-section"
         style={{ paddingTop: '50px' }}
-        data-background="/assets/img/footer-bg.png"
       >
         <div className="bi-footer-cta blue-footer position-relative">
           <div className="container position-relative">
@@ -82,11 +81,11 @@ export default function Footer() {
                   <div className="menu-widget">
                     <h3 className="widget-title">Development</h3>
                     <ul>
-                      <li><Link href="#!">UI/UX</Link></li>
-                      <li><Link href="#!">Digital Marketing</Link></li>
-                      <li><Link href="#!">Web Application</Link></li>
-                      <li><Link href="#!">Mobile Application</Link></li>
-                      <li><Link href="#!">Shopify</Link></li>
+                      <li><Link href="/what-we-do">UI/UX</Link></li>
+                      <li><Link href="/what-we-do">Digital Marketing</Link></li>
+                      <li><Link href="/what-we-do">Web Application</Link></li>
+                      <li><Link href="/what-we-do">Mobile Application</Link></li>
+                      <li><Link href="/what-we-do">Shopify</Link></li>
                     </ul>
                   </div>
                 </div>

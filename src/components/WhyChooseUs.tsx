@@ -72,8 +72,6 @@ export default function WhyChooseUs() {
                     <div className="bi-section-title-4 bins-text headline">
                       <div
                         className="sub-title position-relative text-uppercase wow fadeInRight"
-                        data-wow-delay="200ms"
-                        data-wow-duration="1000ms"
                       >
                         Why choose us
                       </div>
@@ -112,8 +110,6 @@ export default function WhyChooseUs() {
                     <div className="bi-section-title-4 headline bins-text">
                       <div
                         className="sub-title position-relative text-uppercase wow fadeInRight"
-                        data-wow-delay="300ms"
-                        data-wow-duration="1000ms"
                       >
                         Our Experiences
                       </div>

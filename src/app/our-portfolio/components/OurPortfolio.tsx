@@ -67,7 +67,7 @@ const OurPortfolio: React.FC = () => {
   // Array of portfolio items data
   const portfolioItems: PortfolioItem[] = [...Array(12).keys()].map((index) => ({
     category: `${(index % 3) + 1}`, // Categories will be '1', '2', or '3'
-    imageSrc: `/assets/images/portfolipage/${index + 1}.png`,
+    imageSrc: `/assets/images/portfolipage/${index + 1}.jpg`,
     altText: `Portfolio ${index + 1}`,
   }));
 

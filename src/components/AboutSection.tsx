@@ -26,9 +26,8 @@ export default function AboutSection() {
                 </span>
 
                 <div
-                  className="about-img1 wow fadeInUp"
-                  data-wow-delay="300ms"
-                  data-wow-duration="1000ms"
+                  className="about-img1 d-xl-block d-lg-block d-md-block d-sm-block d-none"
+
                 >
                   <Image
                     src="/assets/images/657x581-5.png"
@@ -41,8 +40,7 @@ export default function AboutSection() {
 
                 <div
                   className="about-img2 position-absolute wow fadeInRight mt-5"
-                  data-wow-delay="500ms"
-                  data-wow-duration="1000ms"
+         
                 >
                   <Image
                     src="/assets/images/421x483-2.png"
