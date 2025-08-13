@@ -1,5 +1,6 @@
-import "./globals.css";
 import Script from "next/script";
+import Head from "next/head";
+import "./globals.css"; // Import your globals.css here
 
 export const metadata = {
   title: "Brand Hawks - Dubai, UAE",
@@ -7,12 +8,10 @@ export const metadata = {
   alternates: {
     canonical: 'https://www.brandhawks.ae/',
   },
-  keywords:
-    "agency, app, business, company, corporate, designer, freelance, fullpage, modern, office, personal, portfolio, professional, web, web agency",
+  keywords: "agency, app, business, company, corporate, designer, freelance, fullpage, modern, office, personal, portfolio, professional, web, web agency",
   icons: {
     icon: "/assets/img/logo/f-icon.png",
   },
-  
 };
 
 export default function RootLayout({
@@ -20,37 +19,57 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <head>
-       {/* <!-- Standard favicon --> */}
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favIcons/16x16.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favIcons/32x32.png"/>
-        
-        {/* <!-- Apple devices (iPhones, iPads) --> */}
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favIcons/180x180"/>
-        
-        {/* <!-- Android devices + general web --> */}
-        <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favIcons/192x192.png"/>
-        <link rel="icon" type="image/png" sizes="512x512" href="assets/images/favIcons/512x512.png"/>
-      {/* <!-- Mobile Specific Meta --> */}
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
+        {/* Standard favicon */}
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favIcons/16x16.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favIcons/32x32.png" />
 
-      <link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>
-      <link rel="stylesheet" href="/assets/css/fontawesome.css"/>
-      <link rel="stylesheet" href="/assets/css/animate.css"/>
-      <link rel="stylesheet" href="/assets/css/global.css"/>
-      <link rel="stylesheet" href="/assets/css/swiper.min.css"/>
-      <link rel="stylesheet" href="/assets/css/magnific-popup.css"/>
-      <link rel="stylesheet" href="/assets/css/style.css"/>
+        {/* Apple devices */}
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favIcons/180x180" />
+
+        {/* Android devices */}
+        <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favIcons/192x192.png" />
+        <link rel="icon" type="image/png" sizes="512x512" href="assets/images/favIcons/512x512.png" />
+
+        {/* Mobile Specific Meta */}
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        {/* Preload critical CSS files */}
+        <link rel="preload" href="/assets/css/bootstrap.min.css" as="style" />
+        <link rel="preload" href="/assets/css/fontawesome.css" as="style" />
+        <link rel="preload" href="/assets/css/animate.css" as="style" />
+
+        {/* Standard CSS files (critical) */}
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/assets/css/fontawesome.css" />
+        <link rel="stylesheet" href="/assets/css/animate.css" />
+
+        {/* Non-critical CSS files */}
+        <link
+          rel="stylesheet"
+          href="/assets/css/global.css"
+        />
+        <link
+          rel="stylesheet"
+          href="/assets/css/swiper.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="/assets/css/magnific-popup.css"
+        />
+        <link
+          rel="stylesheet"
+          href="/assets/css/style.css"
+        />
       </head>
 
       <body className="home-4">
         {children}
 
-       
-
-        {/* Load jQuery and essential plugins first */}
+        {/* Load jQuery and other essential plugins */}
         <Script
           src="/assets/js/jquery-3.6.0.min.js"
           strategy="beforeInteractive"
@@ -60,7 +79,7 @@ export default function RootLayout({
           strategy="beforeInteractive"
         />
         
-        {/* Then load all other scripts */}
+        {/* Other scripts */}
         <Script
           src="/assets/js/bootstrap.bundle.min.js"
           strategy="afterInteractive"
@@ -121,6 +140,7 @@ export default function RootLayout({
         <Script src="/assets/js/matter.min.js" strategy="afterInteractive" />
         <Script src="/assets/js/script.js" strategy="afterInteractive" />
 
+        {/* Preloader script */}
         <Script id="preloader-script" strategy="afterInteractive">
           {`
           setTimeout(() => {
