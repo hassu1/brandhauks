@@ -67,6 +67,18 @@ body{
 }
 
 
+       .bi-slider-section-4 {
+  background-image: url('/assets/images/project/Capture.PNG'); /* Correct path for Next.js public folder */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Mobile specific styles: hide the background image */
+@media only screen and (max-width: 600px) {
+  .bi-slider-section-4 {
+    background-image: none; /* Remove background image on mobile */
+  }
+}
 
 
 @media only screen and (min-width: 1100px) and (max-width: 1399px) {

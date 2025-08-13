@@ -39,7 +39,7 @@ export default function AboutSection() {
                 </div>
 
                 <div
-                  className="about-img2 position-absolute wow fadeInRight mt-5"
+                  className="about-img2 position-absolute mt-5"
          
                 >
                   <Image
@@ -58,7 +58,7 @@ export default function AboutSection() {
               <div className="bi-about-text-4 position-relative">
                 <div className="bi-section-title-4 headline" style={{ position: "static" }}>
                   <div
-                    className="sub-title position-relative text-uppercase wow fadeInRight"
+                    className="sub-title position-relative text-uppercase"
                     data-wow-delay="200ms"
                     data-wow-duration="1000ms"
                   >
@@ -77,9 +77,7 @@ export default function AboutSection() {
                   </p>
 
                   <div
-                    className="bi-abut-feature-list-4 ul-li wow fadeInUp"
-                    data-wow-delay="300ms"
-                    data-wow-duration="1000ms"
+                    className="bi-abut-feature-list-4 ul-li"
                   >
                     <ul>
                       <li>
@@ -122,9 +120,7 @@ export default function AboutSection() {
                   </div>
 
                   <div
-                    className="bi-about-btn-cta d-flex align-items-center wow fadeInUp"
-                    data-wow-delay="400ms"
-                    data-wow-duration="1000ms"
+                    className="bi-about-btn-cta d-flex align-items-center"
                   >
                     <div className="bi-btn-4 text-uppercase">
                       <Link href="/about-us">

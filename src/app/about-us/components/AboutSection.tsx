@@ -25,9 +25,7 @@ const AboutSection = () => {
                   />
                 </span>
                 <div
-                  className="about-img1 wow fadeInUp"
-                  data-wow-delay="300ms"
-                  data-wow-duration="1000ms"
+                  className="about-img1 d-xl-block d-lg-block d-md-block d-sm-block d-none"
                 >
                   <Image
                     src="/assets/images/657x581-5.png"
@@ -39,8 +37,6 @@ const AboutSection = () => {
                 </div>
                 <div
                   className="about-img2 position-absolute wow fadeInRight mt-5"
-                  data-wow-delay="500ms"
-                  data-wow-duration="1000ms"
                 >
                   <Image
                     src="/assets/images/421x483-2.png"
@@ -57,8 +53,6 @@ const AboutSection = () => {
                 <div className="bi-section-title-4 headline" style={{ position: 'static' }}>
                   <div
                     className="sub-title position-relative text-uppercase wow fadeInRight"
-                    data-wow-delay="200ms"
-                    data-wow-duration="1000ms"
                   >
                     Welcome To Brand Hauks
                   </div>
@@ -72,9 +66,7 @@ const AboutSection = () => {
                   </p>
                 </div>
                 <div
-                  className="bi-abut-feature-list-4 ul-li wow fadeInUp"
-                  data-wow-delay="300ms"
-                  data-wow-duration="1000ms"
+                  className="bi-abut-feature-list-4 ul-li"
                 >
                   <ul>
                     <li>

@@ -56,11 +56,6 @@ export default function Banner() {
       {/* Main Section without Slider */}
       <section
         className="bi-slider-section-4"
-        style={{
-        backgroundImage: `url('assets/images/project/Capture.PNG')`,
-        backgroundSize: 'cover', // Adjust background size if needed
-        backgroundPosition: 'center', // Adjust position if needed
-      }}    
       >
         <div className="bi-main-slider-item-4 position-relative">
           <span className="shape_1 position-absolute">
