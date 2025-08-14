@@ -89,7 +89,7 @@ export default function RootLayout({
         />
         <Script src="/assets/js/appear.js" strategy="afterInteractive" />
         <Script src="/assets/js/counter.js" strategy="afterInteractive" />
-        {/* <Script src="/assets/js/gsap.min.js" strategy="afterInteractive" /> */}
+        <Script src="/assets/js/gsap.min.js" strategy="afterInteractive" />
         <Script src="/assets/js/knob.js" strategy="afterInteractive" />
         <Script
           src="/assets/js/jquery.magnific-popup.min.js"
