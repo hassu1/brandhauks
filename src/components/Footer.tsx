@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Footer() {
+    const currentYear = new Date().getFullYear();
   return (
     <>
     
@@ -138,8 +139,8 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="bi-footer-copyright text-center">
-          Copyright 2025 @brandHawks
+         <div className="bi-footer-copyright text-center">
+          Copyright {currentYear} @brandHawks
         </div>
       </footer>
     </>

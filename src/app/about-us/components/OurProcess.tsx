@@ -29,9 +29,7 @@ const OurProcess = () => {
               <div className="bi-key-feature-title-text dark-bg-title">
                 <div className="bi-section-title-2 headline">
                   <div
-                    className="bi-subtitle text-uppercase wow fadeInRight"
-                    data-wow-delay="200ms"
-                    data-wow-duration="1000ms"
+                    className="bi-subtitle text-uppercase"
                   >
                     Welcome To Brand Hawks
                   </div>
@@ -99,16 +97,7 @@ const OurProcess = () => {
                     },
                   ].map((feature, index) => (
                     <div
-                      className="col-lg-4 col-md-6 col-12 mb-3 wow fadeInUp"
-                      data-wow-delay="300ms"
-                      data-wow-duration="1500ms"
-                      key={index}
-                      style={{
-                        visibility: 'visible',
-                        animationDuration: '1500ms',
-                        animationDelay: '300ms',
-                        animationName: 'fadeInUp',
-                      }}
+                      className="col-lg-4 col-md-6 col-12 mb-3"
                     >
                       <div className="bi-key-feature-item">
                         <div className="bi-key-feature-icon-number d-flex justify-content-between align-items-center">

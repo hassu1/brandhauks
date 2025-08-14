@@ -96,3 +96,12 @@ body{
     transform: translate(0px, 0px)!important;
 }
 }
+
+
+.accordion-button::after{
+  color:#FFF!important;
+  filter:brightness(0) invert(1)
+}
+.bi-testimonial-feed-item{
+  height: 310px;
+}

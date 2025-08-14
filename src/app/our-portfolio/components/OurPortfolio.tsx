@@ -76,12 +76,12 @@ const OurPortfolio: React.FC = () => {
       <div className="container pt-5">
         <div className="bi-portfolio-feed-top-content d-flex justify-content-between flex-wrap align-items-end">
           <div className="bi-section-title-3 headline pera-content">
-            <div className="bi-subtitle text-uppercase wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms">
+            <div className="bi-subtitle text-uppercase">
               Our Best Portfolio
             </div>
             <h2 className="tx-split-text split-in-right text-center text-white">Our Best Portfolio</h2>
           </div>
-          <div className="bi-portfolio-filter-btn ul-li text-center wow fadeInRight" data-wow-delay="300ms" data-wow-duration="1500ms">
+          <div className="bi-portfolio-filter-btn ul-li text-center">
             <ul id="filters" className="nav-gallery">
               <li className={`filtr-button ${activeFilter === 'all' ? 'filtr-active' : ''}`} onClick={() => handleFilterChange('all')}>See All</li>
               <li className={`filtr-button ${activeFilter === '1' ? 'filtr-active' : ''}`} onClick={() => handleFilterChange('1')}>Business</li>
@@ -104,6 +104,7 @@ const OurPortfolio: React.FC = () => {
                     width={500} // Adjust width and height accordingly
                     height={450} // Adjust height
                     style={{ width: '100%', height: 'auto' }}
+                    loading='lazy'
                   />
                 </div>
               </div>

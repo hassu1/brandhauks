@@ -87,7 +87,7 @@ const ContactForm = () => {
               <div className="bi-team-details-contact-info headline pera-content">
                 <div className="bi-team-details-contact-title" style={{ padding: '10px' }}>
                   <div className="bi-section-title-1 headline pera-content">
-                    <div className="bi-subtitle text-uppercase wow fadeInRight" data-wow-delay="200ms" data-wow-duration="1000ms">
+                    <div className="bi-subtitle text-uppercase">
                       Welcome To Brand Hawks
                     </div>
                     <h2 className="headline-title text-white">

@@ -13,9 +13,7 @@ const AboutSection = () => {
             <div className="col-lg-6 col-md-6 col-12">
               <div className="bi-about-img-wrapper4 position-relative">
                 <span
-                  className="about-circle-shape position-absolute wow zoomIn"
-                  data-wow-delay="500ms"
-                  data-wow-duration="1000ms"
+                  className="about-circle-shape position-absolute"
                 >
                   <Image
                     src="/assets/img/about/circle1.png"
@@ -36,7 +34,7 @@ const AboutSection = () => {
                   />
                 </div>
                 <div
-                  className="about-img2 position-absolute wow fadeInRight mt-5"
+                  className="about-img2 position-absolute mt-5"
                 >
                   <Image
                     src="/assets/images/421x483-2.png"
@@ -52,7 +50,7 @@ const AboutSection = () => {
               <div className="bi-about-text-4 position-relative">
                 <div className="bi-section-title-4 headline" style={{ position: 'static' }}>
                   <div
-                    className="sub-title position-relative text-uppercase wow fadeInRight"
+                    className="sub-title position-relative text-uppercase"
                   >
                     Welcome To Brand Hauks
                   </div>
@@ -67,7 +65,7 @@ const AboutSection = () => {
                 </div>
                 <div
                   className="bi-abut-feature-list-4 ul-li"
-                >
+                  >
                   <ul>
                     <li>
                       <i className="fal fa-users"></i> Dedicated Team

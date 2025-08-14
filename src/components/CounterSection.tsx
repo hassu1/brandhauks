@@ -1,24 +1,23 @@
 'use client';
-import Image from 'next/image';
 
 export default function CounterSection() {
     return (
         <>
             <section id="bi-counter-4" className="bi-counter-section-4 position-relative" data-background="assets/img/counter-bg.png">
-                <span className="bi-counter-landing1 counter-landing position-absolute">
-                    <img src="assets/images/project/4.png" alt="" />
+                <span className="bi-counter-landing1 counter-landing position-absolute d-xl-block d-lg-block d-md-block d-sm-none d-none">
+                    <img src="assets/images/project/4.png" alt="" className='lazy' />
                 </span>
-                <span className="bi-counter-landing2 counter-landing position-absolute">
-                    <img src="assets/images/project/5.png" alt="" />
+                <span className="bi-counter-landing2 counter-landing position-absolute d-xl-block d-lg-block d-md-block d-sm-none d-none">
+                    <img src="assets/images/project/5.png" alt="" className='lazy'  />
                 </span>
-                <span className="bi-counter-landing3 counter-landing position-absolute">
-                    <img src="assets/images/project/6.png" alt="" />
+                <span className="bi-counter-landing3 counter-landing position-absolute d-xl-block d-lg-block d-md-block d-sm-none d-none">
+                    <img src="assets/images/project/6.png" alt="" className='lazy'  />
                 </span>
                 <div className="container">
                     <div className="bi-counter-content-4 d-flex justify-content-end">
                         <div className="bi-fun-fact-counter-2  position-relative">
                             <span className="bi-fun-fact-star position-absolute">
-                                <img src="assets/img/icon/star2.png" alt="" />
+                                <img src="assets/img/icon/star2.png" className='lazy'  alt="" />
                             </span>
                             <div className="row">
                                 <div className="col-md-6">

@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function WhyChooseUs() {
   return (
     <section id="bi-why-choose-us-4" className="bi-why-choose-us-section-4">
-      <div className="bi-title-waterprint headline">
+      <div className="bi-title-waterprint headline fordemo">
         <h2>Why Choose Us</h2>
       </div>
       <div className="bi-why-choose-us-content">
@@ -16,11 +16,12 @@ export default function WhyChooseUs() {
                 <div className="bi-why-choose-img1-area position-relative">
                   <div className="why-choose-img1 text-center">
                     <Image
-                      src="/assets/images/657x581-6.png"
+                      src="/assets/images/dazzlewheel.png"
                       alt="Why Choose Us Image 1"
                       width={657}
                       height={581}
                       style={{ borderRadius: "10px" }}
+                      loading="lazy"
                     />
                   </div>
                   <div
@@ -71,11 +72,11 @@ export default function WhyChooseUs() {
                   <div className="bi-why-choose-text_1">
                     <div className="bi-section-title-4 bins-text headline">
                       <div
-                        className="sub-title position-relative text-uppercase wow fadeInRight"
+                        className="sub-title position-relative text-uppercase"
                       >
                         Why choose us
                       </div>
-                      <h2 className="tx-split-text split-in-right">
+                      <h2 className="">
                         We&apos;re Here to Help Your Business Thrive
                       </h2>
                       <p>
@@ -109,11 +110,11 @@ export default function WhyChooseUs() {
                   <div className="bi-why-choose-text_2">
                     <div className="bi-section-title-4 headline bins-text">
                       <div
-                        className="sub-title position-relative text-uppercase wow fadeInRight"
+                        className="sub-title position-relative text-uppercase"
                       >
                         Our Experiences
                       </div>
-                      <h2 className="tx-split-text split-in-right">
+                      <h2 className="split-in-right">
                         We Grow Brands in the Digital World
                       </h2>
                       <p>
@@ -159,11 +160,12 @@ export default function WhyChooseUs() {
                 <div className="bi-why-choose-img2-area position-relative">
                   <div className="why-choose-img2 text-center">
                     <Image
-                      src="/assets/images/657x581-7.png"
+                      src="/assets/images/myplate.png"
                       alt="Why Choose Us Image 2"
                       width={657}
                       height={581}
                       style={{ borderRadius: "10px" }}
+                      loading="lazy"
                     />
                   </div>
                   <div

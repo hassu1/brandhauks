@@ -96,6 +96,7 @@ export default function ServicesSection() {
                     alt={service.title}
                     width={522}
                     height={595}
+                    loading="lazy"
                     style={{ width: "100%", height: "auto" }}
                   />
                 </div>

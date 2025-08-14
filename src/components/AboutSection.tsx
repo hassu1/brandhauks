@@ -13,41 +13,33 @@ export default function AboutSection() {
             <div className="col-lg-6 col-md-6 col-12">
               <div className="bi-about-img-wrapper4 position-relative">
                 <span
-                  className="about-circle-shape position-absolute wow zoomIn"
-                  data-wow-delay="500ms"
-                  data-wow-duration="1000ms"
+                  className="about-circle-shape position-absolute"
                 >
                   <Image
                     src="/assets/img/about/circle1.png"
                     alt="Circle Shape"
                     width={100}
                     height={100}
+                    loading="lazy"
+                    style={{
+                      position:'relative',
+                      top:'-12.7rem',
+                      left:'4rem'
+                    }}
                   />
                 </span>
 
                 <div
-                  className="about-img1 d-xl-block d-lg-block d-md-block d-sm-block d-none"
-
-                >
-                  <Image
-                    src="/assets/images/657x581-5.png"
-                    alt="About 1"
-                    width={657}
-                    height={581}
-                    style={{ height: "400px", borderRadius: "10px", width: "auto" }}
-                  />
-                </div>
-
-                <div
-                  className="about-img2 position-absolute mt-5"
+                  className="about-img2"
          
                 >
                   <Image
-                    src="/assets/images/421x483-2.png"
+                    src="/assets/images/baraf.png"
                     alt="About 2"
-                    width={421}
-                    height={483}
-                    style={{ height: "400px", borderRadius: "10px", width: "auto" }}
+                    width={800}
+                    height={500}
+                    loading="lazy"
+                    style={{ height: "auto", borderRadius: "10px", width: "auto" }}
                   />
                 </div>
               </div>
@@ -59,8 +51,6 @@ export default function AboutSection() {
                 <div className="bi-section-title-4 headline" style={{ position: "static" }}>
                   <div
                     className="sub-title position-relative text-uppercase"
-                    data-wow-delay="200ms"
-                    data-wow-duration="1000ms"
                   >
                     WHO WE ARE
                   </div>
@@ -70,6 +60,7 @@ export default function AboutSection() {
                 </div>
 
                 <div className="" style={{ paddingTop: "5px" }}>
+
                   <p>
                     Brand Hawks is a dynamic and evolving marketing company, founded in 2018, dedicated to
                     delivering smart, effective online marketing solutions. We work with businesses of all

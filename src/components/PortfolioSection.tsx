@@ -61,9 +61,7 @@ export default function PortfolioSection() {
       <div className="container">
         <div className="bi-section-title-4 text-center headline">
           <div
-            className="sub-title position-relative text-uppercase wow fadeInRight"
-            data-wow-delay="100ms"
-            data-wow-duration="1000ms"
+            className="sub-title position-relative text-uppercase"
           >
             Our Projects
           </div>
@@ -101,9 +99,7 @@ export default function PortfolioSection() {
 
                 {/* Item 2 */}
                 <div
-                  className="bi-portfolio-item-4 wow fadeInUp"
-                  data-wow-delay="200ms"
-                  data-wow-duration="1000ms"
+                  className="bi-portfolio-item-4"
                   data-tilt
                   data-tilt-max="2"
                 >
@@ -113,7 +109,7 @@ export default function PortfolioSection() {
                       alt="App Development"
                       width={1300}
                       height={2600}
-                         loading="lazy"
+                      loading="lazy"
                       className="lazy"
                     />
                   </div>
@@ -131,9 +127,7 @@ export default function PortfolioSection() {
               <div className="bi-portfolio-item-wrapper-2">
                 {/* Item 3 */}
                 <div
-                  className="bi-portfolio-item-4 wow fadeInUp"
-                  data-wow-delay="150ms"
-                  data-wow-duration="1000ms"
+                  className="bi-portfolio-item-4"
                   data-tilt
                   data-tilt-max="2"
                 >
@@ -156,9 +150,7 @@ export default function PortfolioSection() {
 
                 {/* Item 4 */}
                 <div
-                  className="bi-portfolio-item-4 wow fadeInUp"
-                  data-wow-delay="250ms"
-                  data-wow-duration="1000ms"
+                  className="bi-portfolio-item-4"
                   data-tilt
                   data-tilt-max="2"
                 >

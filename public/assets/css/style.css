@@ -6540,7 +6540,7 @@ select:visited {
 /*----------------------------------------------------*/
 .bi-about-section-4 {
   overflow: hidden;
-  padding: 110px 0px 100px;
+  padding: 110px 0px 0px;
 }
 
 .bi-about-img-wrapper4 {
@@ -6750,7 +6750,7 @@ select:visited {
   overflow: hidden;
   cursor: -webkit-grab;
   cursor: grab;
-  padding: 100px 0px 60px;
+  padding: 30px 0px 60px;
   border-radius: 0px 0px 100px 100px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 0.02)));
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.02) 100%);
@@ -6790,7 +6790,7 @@ select:visited {
 /*----------------------------------------------------*/
 .bi-why-choose-us-section-4 {
   overflow: hidden;
-  padding: 100px 0px;
+  padding: 100px 0px 0px;
 }
 .bi-why-choose-us-section-4 .container {
   max-width: 1640px;
@@ -8151,7 +8151,7 @@ select:visited {
     width: 100%;
   }
   .bi-about-section-4 {
-    padding: 60px 0px;
+    padding: 0px;
   }
   .bi-service-section-4 {
     padding-top: 60px;
