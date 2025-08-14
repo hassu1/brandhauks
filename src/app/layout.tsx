@@ -1,5 +1,4 @@
 import Script from "next/script";
-import Head from "next/head";
 import "./globals.css"; // Import your globals.css here
 
 export const metadata = {

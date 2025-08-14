@@ -1,5 +1,4 @@
 import WhyChooseUs from "@components/components/WhyChooseUs";
-import ServiceDemo from "./components/ServiceDemo";
 import WhyChoose from "./components/WhyChoose";
 import Image from "next/image";
 import Testimonial from "@components/components/Testimonal";

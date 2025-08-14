@@ -98,6 +98,7 @@ const OurProcess = () => {
                   ].map((feature, index) => (
                     <div
                       className="col-lg-4 col-md-6 col-12 mb-3"
+                      key={index}
                     >
                       <div className="bi-key-feature-item">
                         <div className="bi-key-feature-icon-number d-flex justify-content-between align-items-center">
