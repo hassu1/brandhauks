@@ -105,3 +105,8 @@ body{
 .bi-testimonial-feed-item{
   height: 310px;
 }
+.bi-testimonial-feed-item .testimonial-desc{
+  font-family: var(--body-font)!important;
+  font-weight: 500;
+  font-size:17px;
+}

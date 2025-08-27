@@ -7,7 +7,7 @@ Header Section
 ******* HOME PAGE 1 ******
 slider
 skill-logo
-quality
+qualityf
 about
 storyboard
 fun-fact
@@ -7905,9 +7905,9 @@ select:visited {
   .bi-team-item-4 .team-text h3 {
     font-size: 28px;
   }
-  .bi-title-waterprint {
+  /* .bi-title-waterprint {
     display: none;
-  }
+  } */
 }
 @media screen and (max-width: 1100px) {
   .bi-counter-section-4 .counter-landing.bi-counter-landing1,

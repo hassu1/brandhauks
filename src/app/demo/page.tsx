@@ -45,7 +45,6 @@ export default function demo() {
       </section>
       <WhyChooseUs />
       <Testimonial />
-
       <FAQ />
       <Footer />
     </>
