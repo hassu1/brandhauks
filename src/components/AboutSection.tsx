@@ -34,7 +34,7 @@ export default function AboutSection() {
          
                 >
                   <Image
-                    src="/assets/images/baraf.png"
+                    src="/assets/images/mockup-3.png"
                     alt="About 2"
                     width={800}
                     height={500}
