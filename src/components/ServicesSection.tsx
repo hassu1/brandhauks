@@ -97,7 +97,7 @@ export default function ServicesSection() {
                     width={522}
                     height={595}
                     loading="lazy"
-                    style={{ width: "100%", height: "auto" }}
+                    style={{ width: "100%", height: "auto", objectFit:'cover' }}
                   />
                 </div>
                 <div className="service-text headline d-flex position-absolute align-items-center justify-content-between">

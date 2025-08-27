@@ -73,7 +73,7 @@ export default function AboutSection() {
                     <ul>
                       <li>
                         <Image
-                          src="/assets/images/icons-30x30-5.png"
+                          src="/assets/images/rocket-svgrepo-com.svg"
                           alt="Icon"
                           width={30}
                           height={30}
@@ -82,7 +82,7 @@ export default function AboutSection() {
                       </li>
                       <li>
                         <Image
-                          src="/assets/images/icons-30x30-2.png"
+                          src="/assets/images/people-community-svgrepo-com.svg"
                           alt="Icon"
                           width={30}
                           height={30}
@@ -91,7 +91,7 @@ export default function AboutSection() {
                       </li>
                       <li>
                         <Image
-                          src="/assets/images/icons-30x30-4.png"
+                          src="/assets/images/24-hour-service-svgrepo-com.svg"
                           alt="Icon"
                           width={30}
                           height={30}
@@ -100,7 +100,7 @@ export default function AboutSection() {
                       </li>
                       <li>
                         <Image
-                          src="/assets/images/icons-30x30-1.png"
+                          src="/assets/images/incandescent-light-bulb-svgrepo-com.svg"
                           alt="Icon"
                           width={30}
                           height={30}

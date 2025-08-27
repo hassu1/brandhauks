@@ -41,7 +41,7 @@ export default function SEO() {
                             />
                           </div>
                           <div
-                            className="why-choose-img2 position-absolute"
+                            className="why-choose-img2 rr position-absolute"
                             data-parallax='{"x" : -60}'
                           >
                             <Image

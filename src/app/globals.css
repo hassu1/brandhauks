@@ -78,6 +78,24 @@ body{
   .bi-slider-section-4 {
     background-image: none; /* Remove background image on mobile */
   }
+  .bi-title-waterprint h2{
+    font-size:50px!important;
+    margin-bottom:10px!important;
+  }
+  .bi-main-slider-item-4{
+            padding: 130px 0px 0px 0px!important;
+  }
+  .why-choose-img4, .why-choose-img3,.why-choose-img2_1, .why-choose-img2_2, .why-choose-img2_3, .rr{
+    display:none;
+  }
+  .bi-why-choose-us-area-2{
+    margin-bottom:10px!important;
+  }
+  .bi-footer-logo-area{top:auto}
+}
+.bi-footer-logo-area{
+  position:relative;
+  top:-60px;
 }
 
 
