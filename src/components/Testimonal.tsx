@@ -65,7 +65,7 @@ export default function Testimonial() {
 									<li><i className="fas fa-star"></i></li>
 								</ul>
 							</div>
-							<div className="testimonial-desc text-white">
+							<div className="testimonial-desc">
 								{t.quote}
 							</div>
 							<div className="testimonial-author headline text-uppercase">
