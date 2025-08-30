@@ -42,7 +42,7 @@ const ContactForm = () => {
     }
 
     try {
-      const CUSTOMURL = process.env.NEXT_PUBLIC_KEY_CONTACT_CONTROLLER
+      const CUSTOMURL = process.env.CONTACT_CONTROLLER
       const response = await fetch(`${CUSTOMURL}`, {
         method: 'POST',
         headers: {
