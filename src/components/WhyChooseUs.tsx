@@ -16,7 +16,7 @@ export default function WhyChooseUs() {
                 <div className="bi-why-choose-img1-area position-relative">
                   <div className="why-choose-img1 text-center">
                     <Image
-                      src="/assets/images/dazzlewheel.png"
+                      src="/assets/img/Untitled1design.png"
                       alt="Why Choose Us Image 1"
                       width={657}
                       height={581}
@@ -59,7 +59,7 @@ export default function WhyChooseUs() {
                     data-parallax='{"y" : -60}'
                   >
                     <Image
-                      src="/assets/img/about/wh1.4.png"
+                      src="/assets/img/ball.png"
                       alt="Decorative Image 5"
                       width={50}
                       height={50}
@@ -195,7 +195,7 @@ export default function WhyChooseUs() {
                     data-parallax='{"y" : -60, "rotateY":-150}'
                   >
                     <Image
-                      src="/assets/img/about/wh2.4.png"
+                      src="/assets/img/ball.png"
                       alt="Decorative Image 4"
                       width={50}
                       height={50}
