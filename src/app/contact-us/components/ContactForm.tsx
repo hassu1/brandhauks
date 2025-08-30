@@ -42,7 +42,8 @@ const ContactForm = () => {
     }
 
     try {
-      const response = await fetch('https://www.brandhawks.ae/controller/ContactUsController', {
+      const CUSTOMURL = process.env.NEXT_PUBLIC_KEY_CONTACT_CONTROLLER
+      const response = await fetch(`${CUSTOMURL}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
@@ -53,8 +54,7 @@ const ContactForm = () => {
       const result = await response.json();
 
       if (response.ok) {
-        // Redirect to the thank-you page
-        router.push('/thankyou');  // Or use any other form of redirection
+        router.push('/thankyou');
       } else {
         setError(result.message || 'Failed to send email.');
       }

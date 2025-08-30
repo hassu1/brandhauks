@@ -32,7 +32,7 @@ export default function SEO() {
                         <div className="bi-why-choose-img1-area position-relative">
                           <div className="why-choose-img1 text-center">
                             <Image
-                              src="/assets/images/mock-4.png"
+                              src="/assets/img/Untitled1design.png"
                               alt="Why Choose Us Image 1"
                               width={657}
                               height={581}
@@ -126,7 +126,7 @@ export default function SEO() {
                         <div className="bi-why-choose-img2-area position-relative">
                           <div className="why-choose-img2 text-center">
                             <Image
-                              src="/assets/images/mock-2.png"
+                              src="/assets/img/Untitled-design-1.png"
                               alt="Why Choose Us Image 2"
                               width={657}
                               height={581}

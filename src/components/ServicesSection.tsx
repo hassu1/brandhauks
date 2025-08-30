@@ -12,14 +12,14 @@ import "swiper/css/free-mode";
 
 
 const services = [
-  { title: "App Development", img: "/assets/images/services/522x595-APP.jpg" },
-  { title: "Web Design", img: "/assets/images/services/522x595-WEB.jpg" },
-  { title: "SMM", img: "/assets/images/services/522x595-SOCIIAL-MEDIA.jpg" },
+  { title: "App Development", img: "/assets/img/Appdevelopment-mockup.png" },
+  { title: "Web Design", img: "/assets/img/WEBSITE-DESIGN-MOCKUP.png" },
+  { title: "SMM", img: "/assets/img/Social-media-mockup.png" },
   { title: "SEO", img: "/assets/images/services/522x595-SEO.jpg" },
   { title: "Branding Design", img: "/assets/images/services/522x595BRANDING.jpg" },
-  { title: "App Development", img: "/assets/images/services/522x595-APP.jpg" },
-  { title: "Web Design", img: "/assets/images/services/522x595-WEB.jpg" },
-  { title: "SMM", img: "/assets/images/services/522x595-SOCIIAL-MEDIA.jpg" },
+  { title: "App Development", img: "/assets/img/Appdevelopment-mockup.png" },
+  { title: "Web Design", img: "/assets/img/WEBSITE-DESIGN-MOCKUP.png" },
+  { title: "SMM", img: "/assets/img/Social-media-mockup.png" },
   { title: "SEO", img: "/assets/images/services/522x595-SEO.jpg" },
   { title: "Branding Design", img: "/assets/images/services/522x595BRANDING.jpg" },
 ];

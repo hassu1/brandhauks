@@ -160,7 +160,7 @@ export default function WhyChooseUs() {
                 <div className="bi-why-choose-img2-area position-relative">
                   <div className="why-choose-img2 text-center">
                     <Image
-                      src="/assets/images/mockup-1.png"
+                      src="/assets/img/where-party.png"
                       alt="Why Choose Us Image 2"
                       width={657}
                       height={581}
