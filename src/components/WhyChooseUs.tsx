@@ -48,7 +48,7 @@ export default function WhyChooseUs() {
                     data-parallax='{"x" : -60, "rotateY":-300}'
                   >
                     <Image
-                      src="/assets/img/about/wh1.3.png"
+                      src="/assets/img/ball.png"
                       alt="Decorative Image 4"
                       width={50}
                       height={50}

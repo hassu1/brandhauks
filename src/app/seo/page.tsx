@@ -40,17 +40,6 @@ export default function SEO() {
                               loading="lazy"
                             />
                           </div>
-                          <div
-                            className="why-choose-img2 rr position-absolute"
-                            data-parallax='{"x" : -60}'
-                          >
-                            <Image
-                              src="/assets/img/about/whc1.2.png"
-                              alt="Decorative Image 2"
-                              width={50}
-                              height={50}
-                            />
-                          </div>
                           <div className="why-choose-img3 position-absolute">
                             <Image
                               src="/assets/img/about/wh1.5.png"
@@ -64,7 +53,7 @@ export default function SEO() {
                             data-parallax='{"x" : -60, "rotateY":-300}'
                           >
                             <Image
-                              src="/assets/img/about/wh1.3.png"
+                              src="/assets/img/ball.png"
                               alt="Decorative Image 4"
                               width={50}
                               height={50}
