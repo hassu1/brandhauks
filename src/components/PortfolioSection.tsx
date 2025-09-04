@@ -176,7 +176,7 @@ export default function PortfolioSection() {
 
           {/* Button */}
           <div className="bi-btn-4 text-center text-uppercase">
-            <Link href="/portfolio">
+            <Link href="/our-portfolio">
               View More{" "}
               <span className="d-flex justify-content-center align-items-center">
                 <Image

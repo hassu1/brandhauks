@@ -102,7 +102,7 @@ export default function ServicesSection() {
                 </div>
                 <div className="service-text headline d-flex position-absolute align-items-center justify-content-between">
                   <h3>
-                    <a href="javascript:void(0);">{service.title}</a>
+                    <Link href="javascript:void(0);">{service.title}</Link>
                   </h3>
                 </div>
               </div>
