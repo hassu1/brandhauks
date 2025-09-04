@@ -1,6 +1,4 @@
 
-import Image from 'next/image'
-
 const OurProcess = () => {
 
   return (
@@ -9,19 +7,6 @@ const OurProcess = () => {
       className="bi-key-feature-section position-relative"
       style={{ padding: '10px 0' }}
     >
-      <span className="bi-side-shape shape_1 position-absolute">
-        <Image
-          src="/assets/img/bg/shape_1.png"
-          alt="Shape Background"
-          layout="intrinsic"
-          width={500} // Adjust size as needed
-          height={500} // Adjust size as needed
-          style={{
-            width:'100%',
-            height:'auto'
-          }}
-        />
-      </span>
       <div className="container">
         <div className="bi-key-feature-content">
           <div className="row mb-5">

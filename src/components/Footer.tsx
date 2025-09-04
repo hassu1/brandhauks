@@ -84,9 +84,9 @@ export default function Footer() {
                     <ul>
                       <li><Link href="/what-we-do">UI/UX</Link></li>
                       <li><Link href="/what-we-do">Digital Marketing</Link></li>
+                      <li><Link href="/seo">SEO</Link></li>
                       <li><Link href="/what-we-do">Web Application</Link></li>
                       <li><Link href="/what-we-do">Mobile Application</Link></li>
-                      <li><Link href="/what-we-do">Shopify</Link></li>
                     </ul>
                   </div>
                 </div>
