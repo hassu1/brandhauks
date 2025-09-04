@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
                       </p>
                     </div>
                     <div className="bi-btn-4 text-uppercase wow fadeInRight" data-wow-delay="400ms" data-wow-duration="1000ms">
-                      <Link href="#!">
+                      <Link href="/contact-us">
                         
                           Chat now <span className="d-flex justify-content-center align-items-center">
                             <Image src="/assets/img/icon/arrow.svg" alt="Arrow Icon" width={15} height={15} />
@@ -78,7 +78,7 @@ const WhyChooseUs = () => {
                       </p>
                     </div>
                     <div className="bi-btn-4 text-uppercase">
-                      <Link href="#!">
+                      <Link href="/contact-us">
                         
                           Chat now <span className="d-flex justify-content-center align-items-center">
                             <Image src="/assets/img/icon/arrow.svg" alt="Arrow Icon" width={15} height={15} />
@@ -132,7 +132,7 @@ const WhyChooseUs = () => {
                       </p>
                     </div>
                     <div className="bi-btn-4 text-uppercase wow fadeInRight" data-wow-delay="400ms" data-wow-duration="1000ms">
-                      <Link href="#!">
+                      <Link href="/contact-us">
                         
                           Chat now <span className="d-flex justify-content-center align-items-center">
                             <Image src="/assets/img/icon/arrow.svg" alt="Arrow Icon" width={15} height={15} />
@@ -165,7 +165,7 @@ const WhyChooseUs = () => {
 
                     </div>
                     <div className="bi-btn-4 text-uppercase">
-                      <Link href="#!">
+                      <Link href="/contact-us">
                         
                           Chat now <span className="d-flex justify-content-center align-items-center">
                             <Image src="/assets/img/icon/arrow.svg" alt="Arrow Icon" width={15} height={15} />
@@ -219,7 +219,7 @@ const WhyChooseUs = () => {
                       </p>
                     </div>
                     <div className="bi-btn-4 text-uppercase wow fadeInRight" data-wow-delay="400ms" data-wow-duration="1000ms">
-                      <Link href="#!">
+                      <Link href="/contact-us">
                         
                           Chat now <span className="d-flex justify-content-center align-items-center">
                             <Image src="/assets/img/icon/arrow.svg" alt="Arrow Icon" width={15} height={15} />
@@ -249,7 +249,7 @@ const WhyChooseUs = () => {
                       </p>
                     </div>
                     <div className="bi-btn-4 text-uppercase">
-                      <Link href="#!">
+                      <Link href="/contact-us">
                         
                           Chat now <span className="d-flex justify-content-center align-items-center">
                             <Image src="/assets/img/icon/arrow.svg" alt="Arrow Icon" width={15} height={15} />
@@ -301,7 +301,7 @@ const WhyChooseUs = () => {
                       </p>
                     </div>
                     <div className="bi-btn-4 text-uppercase wow fadeInRight" data-wow-delay="400ms" data-wow-duration="1000ms">
-                      <Link href="#!">
+                      <Link href="/contact-us">
                         
                           Chat now <span className="d-flex justify-content-center align-items-center">
                             <Image src="/assets/img/icon/arrow.svg" alt="Arrow Icon" width={15} height={15} />
